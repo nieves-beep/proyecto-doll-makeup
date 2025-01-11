@@ -253,102 +253,115 @@ a {
 }
 
 /* ESTILOS MAIN PAGE CONTACTO */
+body {
+  margin: 0;
+  padding: 0;
+}
 
-.contact-section {
+.contacto {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
 }
 
-.info-container {
-  width: 45%;
+.contacto .card {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  max-width: 1000px;
+  width: 100%;
+  text-align: center;
 }
 
-.titPageContacto {
+.contacto .card h1 {
   color: #AA73B6;
   background-color: #FAE3FF;
-  padding: 15px;
+  font-size: 60px;
+  font-weight: bold;
+  margin-bottom: 20px;
   border-radius: 5px;
-  font-size: 40px;
-  font-weight: bold;
-  margin-left: 10px;
-  margin-bottom: 15px;
+  padding: 10px;
 }
 
-/* TELEFONO Y CONTACTO */
+.contacto .card .info {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 20px;
+}
 
-.telefonoContacto i, .emailContacto i , .contactoMapa i {
+.contacto .card .info li {
+  display: flex;
   color: #AA73B6;
-  font-size: 30px;
-  margin-left: 30px;
-  margin-top: 30px;
-}
-
-.telefonoContacto a,
-.emailContacto a {
-  color: #d1a2dc;
-  font-size: 20px;
-  margin-left: 10px;
-  text-decoration: none;
+  font-size: 25px;
   font-weight: bold;
+  margin-bottom: 10px;
+  align-items: center;
+  justify-content: center;
 }
 
-.telefonoContacto a:hover,
-.emailContacto a:hover {
-  color: #d1a2dc;
-  font-size: 20px;
-  margin-left: 10px;
-  text-decoration: underline;
-}
-
-.contactoMapa {
+.contacto .card .info li i {
   color: #AA73B6;
-  text-decoration: none;
+  margin-right: 25px;
   font-weight: bold;
-  font-size: 26px;
 }
 
-.contactoMapa a {
-  color: #d1a2dc;
-  text-decoration: none;
-  font-weight: bold;
-  font-size: 20px;
-}
-
-/*FORM*/
-
-.contact-form {
+.contacto .card form {
   display: flex;
   flex-direction: column;
   gap: 15px;
-  width: 45%;
 }
 
-.contact-form label {
+.contacto .card form label {
+  font-size: 25px;
+  font-weight: bold;
   color: #AA73B6;
+  text-align: left;
+}
+
+.contacto .card form input,
+.contacto .card form textarea {
+  width: 100%;
+  max-width: 800px;
+  color: #AA73B6;
+  background-color: #FAE3FF;
+  border: #AA73B6;
+  border-radius: 5px;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.contacto .card form textarea {
+  height: 100px;
+}
+
+.contacto .card form input:focus,
+.contacto .card form textarea:focus {
+  outline: none;
+  border: 2px solid #AA73B6;
+  background-color: #FAE3FF; 
+}
+
+.contacto .card form input::placeholder,
+.contacto .card form textarea::placeholder {
+  color: #c08acc;
   font-size: 20px;
   font-weight: bold;
 }
 
-.contact-form input,
-.contact-form textarea {
-  width: 85%;
-  padding: 10px;
-  margin-bottom: 10px;
-  border: 1px solid #FAE3FF;
-  border-radius: 5px;
-}
-
-.contact-form button {
-  color: #AA73B6;
+.contacto .card form button {
   background-color: #FAE3FF;
-  width: 85%;
-  font-weight: bold;
-  padding: 10px 20px;
+  color: #AA73B6;
   border: none;
+  padding: 10px;
   border-radius: 5px;
+  font-size: 25px;
+  font-weight: bold;
 }
 
-.contact-form button:hover {
+.contacto .card form button:hover {
   background-color: #f8d6fe;
 }
 
@@ -586,17 +599,59 @@ ul li {
 
 /* RESPONSIVE CONTACTO */
 
-@media (max-width: 767px) {
-    .titPageContacto{
-      font-size: 30px;
-      font-weight: bold;
-    }
+@media (max-width: 768px) {
+  .contacto .card h1 {
+    font-size: 40px;
+  }
+
+  .contacto .card form label {
+    font-size: 18px;
+  }
+
+  .contacto .card form input,
+  .contacto .card form textarea {
+    font-size: 18px;
+    padding: 8px;
+  }
+
+  .contacto .card form button {
+    font-size: 20px;
+    padding: 8px;
+  }
+
+  .contacto .card .info li {
+    font-size: 18px;
+    margin-bottom: 8px;
+  }
 }
 
-@media (max-width: 767) {
-  .telefonoContacto {
-    font-size: 25px;
-    font-weight: bold;
+@media (max-width: 480px) {
+  .contacto .card {
+    padding: 20px;
+  }
+
+  .contacto .card h1 {
+    font-size: 30px;
+    padding: 8px;
+  }
+
+  .contacto .card form label {
+    font-size: 16px;
+  }
+
+  .contacto .card form input,
+  .contacto .card form textarea {
+    font-size: 16px;
+    padding: 6px;
+  }
+
+  .contacto .card form button {
+    font-size: 18px;
+    padding: 6px;
+  }
+
+  .contacto .card .info li {
+    font-size: 16px;
   }
 }
 

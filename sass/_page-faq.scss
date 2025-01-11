@@ -1,0 +1,61 @@
+/* ESTILOS PAGE FAQ */
+
+.faq {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 20px;
+}
+
+.faq .card {
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(6, 6, 6, 0.1);
+    padding: 20px;
+    max-width: 800px;
+    width: 100%;
+}
+
+.faq .card h1 {
+    color: #AA73B6;
+    background-color: #FAE3FF;
+    font-size: 60px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 30px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.faq .card h2 {
+    color: #AA73B6;
+    background-color: #FAE3FF;
+    font-size: 32px;
+    font-weight: bold;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.faq .card ul {
+    color: #AA73B6;
+    text-align: center;
+}
+
+.faq .card ul li {
+    color: #d1a2dc;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.faq .card p {
+    color: #d1a2dc;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.faq .card .nota {
+    color: #AA73B6;
+}

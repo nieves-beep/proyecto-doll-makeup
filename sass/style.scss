@@ -1,0 +1,330 @@
+@import "reset";
+@import "index-page-productos";
+@import "page-contacto";
+@import "page-envios";
+@import "page-faq";
+@import "footer";
+
+
+
+/* ESTILOS HEADER */
+
+.navbar-nav {
+    margin-right: 200px;
+}
+
+.logoDoll img {
+    text-align: center;
+    max-height: 230px;
+    margin-left: 70px;
+}
+
+.loginCarrito {
+    margin-left: 400px;
+}
+
+.nav-item-login {
+    margin-right: 30px;
+}
+
+/* RESPONSIVE MAIN INICIO */
+
+@media (max-width: 767px) {
+    .productos__card {
+        width: 45%;
+    }
+}
+
+@media (max-width: 479px) {
+    .productos__card {
+        width: 48%;
+    }
+}
+
+/* RESPONSIVE ENVIOS*/
+
+@media (max-width: 480px) {
+    .envios h1 {
+        font-size: 20px;
+    }
+
+    .envios p,
+    .envios ul li {
+        font-size: 14px;
+    }
+
+    .envios h2 {
+        font-size: 16px;
+        padding: 4px;
+    }
+
+    .telefonoContacto, .emailContacto {
+        font-size: 12px;
+    }
+}
+
+/* RESPONSIVE FAQ */
+
+@media (max-width: 768px) {
+    .faq .card {
+        padding: 15px;
+    }
+
+    .faq .card h1 {
+        font-size: 20px;
+    }
+
+    .faq .card h2 {
+        font-size: 18px;
+    }
+
+    .faq .card ul li,
+    .faq .card p {
+        font-size: 14px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

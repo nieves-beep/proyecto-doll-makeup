@@ -1,0 +1,159 @@
+/* ESTILOS MAIN INDEX */
+
+#main {
+    margin-top: 250px;
+}
+
+.banner {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.banner img {
+    width: 25%;
+    height: auto;
+    max-width: 250px;
+}
+
+/* ESTILOS CATEGORÍAS MAIN INDEX Y PAGE PRODUCTOS */
+
+.categorias {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FAE3FF;
+    margin: 30px auto;
+    border-radius: 200px;
+    padding-top: 10px;
+    max-width: 700px;
+    max-height: 40px;
+}
+
+.categorias p {
+    color: #AA73B6;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0;
+    padding: 20px;
+    white-space: nowrap;
+}
+
+.categorias ul {
+    display: flex;
+    justify-content: flex-start;
+    list-style: none;
+}
+
+.categorias ul li {
+    margin-right: 20px;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.categorias a {
+    color: #AA73B6;
+    text-decoration: none;
+}
+
+/* ESTILOS PRODUCTOS INDEX Y PAGE PRODUCTOS */
+
+.productos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    max-width: 1200px;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-between;
+}
+
+.productos__card {
+    width: 30%;
+    box-sizing: border-box;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(236, 76, 183, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.productos__card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.productos__card h2 {
+    color: #AA73B6;
+    font-size: large;
+    text-align: left;
+    margin-top: 10px;
+}
+
+.titProductos {
+    color: #AA73B6;
+    background-color: #FAE3FF;
+    padding: 15px;
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 70px;
+    border-radius: 10px;
+}
+
+.productos__card:hover {
+    transform: scale(1.05);
+}
+
+.maquillaje--btn {
+    height: 50px;
+    color: #AA73B6;
+    background-color: #FAE3FF;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    display: inline-block;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    border: none;
+}
+
+.maquillaje--btn:hover {
+    background-color: #f8d6fe;
+}
+
+/* ESTILOS BTN VER TODOS LOS PRODUCTOS */
+
+.productos--btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.productos--btn a {
+    display: inline-block;
+    color: #AA73B6;
+    background-color: #FAE3FF;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    padding: 15px 25px;
+    border-radius: 8px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.productos--btn a:hover {
+    background-color: #f8d6fe;
+    transform: scale(1.05);
+}

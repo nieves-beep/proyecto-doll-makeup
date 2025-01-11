@@ -266,7 +266,7 @@ a {
     color: #d1a2dc;
     font-size: 20px;
     margin-left: 10px;
-    text-decoration: underline
+    text-decoration: underline;
 }
 
 /*FORM*/
@@ -539,45 +539,58 @@ ul li {
 
 @media (min-width: 768px) {
     .contact-section {
-        flex-direction: row; /* Vuelve a disposición en fila */
+        flex-direction: row;
         gap: 50px;
     }
 
+@media (max-width: 768px) {
     .info-container {
         width: 45%;
     }
+}
 
+@media (max-width: 768px) {
     .contact-form {
         width: 45%;
     }
+}
 
+@media (max-width: 768px) {
     .contactoMapa iframe {
         width: 70%;
         height: 350px;
     }
+}
 
+@media (max-width: 768px) {
     .titPageContacto {
-        font-size: 40px; /* Tamaño original */
+        font-size: 40px; 
     }
 }
 
 /* RESPONSIVE ENVIOS*/
 
-@media (max-width: 480px) {
+@media (max-width: 768px) {
     .envios h1 {
         font-size: 20px;
     }
+}
 
+    @media (max-width: 768px) {    
     .envios p,
     .envios ul li {
         font-size: 14px;
     }
+}
 
+@media (max-width: 768px) {
     .envios h2 {
         font-size: 16px;
         padding: 4px;
     }
+}
 
+@media (max-width: 768px) {
     .telefonoContacto, .emailContacto {
         font-size: 12px;
     }
@@ -589,263 +602,23 @@ ul li {
     .faq .card {
         padding: 15px;
     }
+}
 
+@media (max-width: 768px) {
     .faq .card h1 {
         font-size: 20px;
     }
+}
 
+@media (max-width: 768px) { 
     .faq .card h2 {
         font-size: 18px;
     }
+}
 
+@media (max-width: 768px) {
     .faq .card ul li,
     .faq .card p {
         font-size: 14px;
     }
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+} }

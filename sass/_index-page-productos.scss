@@ -21,36 +21,31 @@
 /* ESTILOS CATEGORÍAS MAIN INDEX Y PAGE PRODUCTOS */
 
 .btn-category {
-    background-color: #FAE3FF; /* Fondo rosado claro */
-    color: #AA73B6;           /* Texto morado */
-    border: 2px solid #AA73B6; /* Borde morado */
-    font-weight: bold;        /* Texto en negrita */
-    border-radius: 8px;       /* Bordes redondeados */
-}
+    background-color: #FAE3FF;
+    color: #AA73B6;
+    border: 2px solid #AA73B6;
+    font-weight: bold; 
+    border-radius: 8px; 
 
-  /* Hover: solo cambia los colores */
 .btn-category:hover {
     background-color: #AA73B6; 
     color: #FAE3FF;
 }
 
-  /* Botón de flecha */
 .btn-category-arrow {
-    background-color: #AA73B6; /* Fondo morado */
-    color: #FAE3FF;          /* Texto rosado claro */
+    background-color: #AA73B6; 
+    color: #FAE3FF; 
     border: none;
     font-size: 1.2rem;
-    border-radius: 50%;      /* Botón circular */
+    border-radius: 50%;
     padding: 10px 15px;
 }
 
 .btn-category-arrow:hover {
-    background-color: #FAE3FF; /* Fondo rosado claro */
-    color: #AA73B6;          /* Ícono morado */
-    border: 2px solid #AA73B6; /* Borde morado */
+    background-color: #FAE3FF; 
+    color: #AA73B6;  
+    border: 2px solid #AA73B6;
 }
-
-
 
 /* ESTILOS PRODUCTOS INDEX Y PAGE PRODUCTOS */
 

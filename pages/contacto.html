@@ -21,57 +21,52 @@
     <!--ESTRUCTURA SEMÁNTICA HTML:5-->
     <!--N°1 <== HEADER/NAV-->
     <header id="header">
-        <nav class="navbar navbar-expand-lg bg-white fixed-top">
-            <div class="container-fluid">
 
-                <!--BOTON-->
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+      <!-- NAVBAR BOOTSTRAP -->
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+          
+          <a class="navbar-brand fw-bold" href="../index.html">
+            <img src="../icons/logo-doll.png" alt="Logo-doll" width="200" class="d-inline-block align-text-top">
+          </a>
+          
+          <!-- MENU HAMBURGUESA EN VISTA MOBILE -->
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+      
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item dropdown">
 
-                <!--NAVEGACION-->
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav">
-                <!--MENU-->
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        Menu
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="../index.html">Inicio</a></li>
-                            <li><a class="dropdown-item" href="productos.html">Productos</a></li>
-                            <li><a class="dropdown-item" href="contacto.html">Contacto</a></li>
-                            <li><a class="dropdown-item" href="envios.html">Envios</a></li>
-                            <li><a class="dropdown-item" href="faq.html">Preguntas frecuentes</a></li>
-                        </ul>
-                    </li>
-                
-                <!--BUSCADOR-->
-                <form class="d-flex" role="search">
-                    <input class="form-control me-2" type="Search" placeholder="Buscar" aria-label="Search">
-                    <button class="btn btn-outline" type="submit">Buscar</button>
-                </form>
-                </ul> 
+                <a class="nav-link dropdown-toggle" href="#" id="menuDropdown" role="button">
+                  Menú
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="menuDropdown">
+                  <li><a class="dropdown-item" href="productos.html">Productos</a></li>
+                  <li><a class="dropdown-item" href="#">Contacto</a></li>
+                  <li><a class="dropdown-item" href="faq.html">Preguntas Frecuentes</a></li>
+                  <li><a class="dropdown-item" href="envios.html">Envíos</a></li>
+                </ul>
+              </li>
 
-                <!--LOGO-->
-                <div class="logoDoll mc-auto" >
-                  <a href="../index.html">
-                    <img src="../icons/logo-doll.png" alt="Logo" class="logo">
-                  </a>
-                </div>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Buscar</a>
+              </li>
 
-                <!--LINKS NAVEGACION-->
-            <div class="loginCarrito">
-                <li class="nav-item-login">
-                    <a class="nav-link active" aria-current="page" href="#">Login</a>
-                </li>
-                <li class="nav-item-carrito">
-                    <a class="nav-link" href="#">Carrito</a>
-                </li>
-            </div>
-            </div>
-            </div>
-        </nav>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Login</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#">Carrito</a>
+              </li>
+
+            </ul>
+          </div>
+        </div>
+      </nav>
+      
 
     </header>
     

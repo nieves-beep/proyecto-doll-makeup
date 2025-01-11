@@ -84,40 +84,45 @@
     
 
     <!--N°2 <== MAIN-->
-    <main id="main">
+<main id="main">
+  <div>
 
+    <div>
       <div class="banner">
         <img src="images/labiales.jpg" alt="">
         <img src="images/50off.PNG" alt="">
         <img src="images/esponjitas.PNG" alt="">
         <img src="images/mascara.PNG" alt="">
-    </div>
-    
-    <div class="container my-4">
-      <h5 class="fw-bold">Categorías</h5>
-      <div class="d-flex align-items-center">
-        <!-- Vista mobile: Botones y flecha -->
-        <div class="d-flex d-lg-none">
-          <div class="btn-group me-2" role="group">
-            <button type="button" class="btn btn-outline-primary">Categoría 1</button>
-            <button type="button" class="btn btn-outline-primary">Categoría 2</button>
-            <button type="button" class="btn btn-outline-primary">Categoría 3</button>
+      </div>
+
+      <div class="container my-4">
+        <div class="row">
+
+          <!-- VISTA DESK -->
+          <div class="d-none d-lg-flex justify-content-between">
+            <a href="#" class="btn btn-category flex-fill text-center me-2">Rostro</a>
+            <a href="#" class="btn btn-category flex-fill text-center me-2">Labios</a>
+            <a href="#" class="btn btn-category flex-fill text-center me-2">Ojos</a>
+            <a href="#" class="btn btn-category flex-fill text-center">Ruby rose</a>
+            <button class="btn btn-category-arrow">
+              <i class="bi bi-arrow-right"></i>
+            </button>
           </div>
-          <button type="button" class="btn btn-primary">
-            <i class="bi bi-arrow-right"></i>
-          </button>
-        </div>
-    
-        <!-- Vista desktop: Links visibles -->
-        <div class="d-none d-lg-flex">
-          <a href="#" class="btn btn-outline-primary me-2">Categoría 1</a>
-          <a href="#" class="btn btn-outline-primary me-2">Categoría 2</a>
-          <a href="#" class="btn btn-outline-primary me-2">Categoría 3</a>
-          <a href="#" class="btn btn-outline-primary">Categoría 4</a>
+
+          <!-- VISTA MOBILE -->
+          <div class="d-flex d-lg-none align-items-center">
+            <button class="btn btn-category me-2 flex-fill">Rostro</button>
+            <button class="btn btn-category me-2 flex-fill">Labios</button>
+            <button class="btn btn-category me-2 flex-fill">Ojos</button>
+            <button class="btn btn-category-arrow">
+              <i class="bi bi-arrow-right"></i>
+            </button>
+          </div>
         </div>
       </div>
     </div>
-    
+
+  </div>
     
 
 <!--METODOLOGIA BEM: BLOQUE__ELEMENTO--MODIFICADO-->

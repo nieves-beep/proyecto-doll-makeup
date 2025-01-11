@@ -20,44 +20,37 @@
 
 /* ESTILOS CATEGORÍAS MAIN INDEX Y PAGE PRODUCTOS */
 
-.categorias {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #FAE3FF;
-    margin: 30px auto;
-    border-radius: 200px;
-    padding-top: 10px;
-    max-width: 700px;
-    max-height: 40px;
+.btn-category {
+    background-color: #FAE3FF; /* Fondo rosado claro */
+    color: #AA73B6;           /* Texto morado */
+    border: 2px solid #AA73B6; /* Borde morado */
+    font-weight: bold;        /* Texto en negrita */
+    border-radius: 8px;       /* Bordes redondeados */
 }
 
-.categorias p {
-    color: #AA73B6;
-    font-size: 20px;
-    font-weight: bold;
-    margin: 0;
-    padding: 20px;
-    white-space: nowrap;
+  /* Hover: solo cambia los colores */
+.btn-category:hover {
+    background-color: #AA73B6; 
+    color: #FAE3FF;
 }
 
-.categorias ul {
-    display: flex;
-    justify-content: flex-start;
-    list-style: none;
+  /* Botón de flecha */
+.btn-category-arrow {
+    background-color: #AA73B6; /* Fondo morado */
+    color: #FAE3FF;          /* Texto rosado claro */
+    border: none;
+    font-size: 1.2rem;
+    border-radius: 50%;      /* Botón circular */
+    padding: 10px 15px;
 }
 
-.categorias ul li {
-    margin-right: 20px;
-    padding: 20px;
-    font-size: 20px;
-    font-weight: bold;
+.btn-category-arrow:hover {
+    background-color: #FAE3FF; /* Fondo rosado claro */
+    color: #AA73B6;          /* Ícono morado */
+    border: 2px solid #AA73B6; /* Borde morado */
 }
 
-.categorias a {
-    color: #AA73B6;
-    text-decoration: none;
-}
+
 
 /* ESTILOS PRODUCTOS INDEX Y PAGE PRODUCTOS */
 

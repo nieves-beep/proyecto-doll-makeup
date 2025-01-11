@@ -26,6 +26,7 @@ ESTO ARTICULA PARA PROPIEDADES COMO MARGIN-PADDING
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 ul {
@@ -542,6 +543,7 @@ ul li {
         flex-direction: row;
         gap: 50px;
     }
+}
 
 @media (max-width: 768px) {
     .info-container {
@@ -576,7 +578,7 @@ ul li {
     }
 }
 
-    @media (max-width: 768px) {    
+@media (max-width: 768px) {    
     .envios p,
     .envios ul li {
         font-size: 14px;

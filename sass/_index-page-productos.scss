@@ -129,6 +129,16 @@
     justify-content: space-between;
 }
 
+.titProductos {
+    color: #AA73B6;
+    background-color: #FAE3FF;
+    padding: 15px;
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 70px;
+    border-radius: 10px;
+}
+
 .productos__card {
     width: 30%;
     box-sizing: border-box;
@@ -151,16 +161,6 @@
     font-size: large;
     text-align: left;
     margin-top: 10px;
-}
-
-.titProductos {
-    color: #AA73B6;
-    background-color: #FAE3FF;
-    padding: 15px;
-    font-size: 30px;
-    font-weight: bold;
-    margin-left: 70px;
-    border-radius: 10px;
 }
 
 .productos__card:hover {

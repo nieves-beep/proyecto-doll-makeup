@@ -276,7 +276,7 @@ a {
 
 /* TELEFONO Y CONTACTO */
 
-.telefonoContacto i, .emailContacto i {
+.telefonoContacto i, .emailContacto i , .contactoMapa i {
   color: #AA73B6;
   font-size: 30px;
   margin-left: 30px;
@@ -298,6 +298,20 @@ a {
   font-size: 20px;
   margin-left: 10px;
   text-decoration: underline;
+}
+
+.contactoMapa {
+  color: #AA73B6;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 26px;
+}
+
+.contactoMapa a {
+  color: #d1a2dc;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 20px;
 }
 
 /*FORM*/
@@ -336,13 +350,6 @@ a {
 
 .contact-form button:hover {
   background-color: #f8d6fe;
-}
-
-.contactoMapa iframe {
-  width: 70%;
-  height: 350px;
-  margin-top: 10px;
-  margin-left: 30px;
 }
 
 /* ESTILOS MAIN PAGE ENVIOS*/
@@ -568,7 +575,7 @@ ul li {
 
 /* TIT PRODUCTOS INICIO */
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .titProductos {
     text-align: left;
     font-size: 16px;
@@ -577,9 +584,25 @@ ul li {
   }
 }
 
+/* RESPONSIVE CONTACTO */
+
+@media (max-width: 767px) {
+    .titPageContacto{
+      font-size: 30px;
+      font-weight: bold;
+    }
+}
+
+@media (max-width: 767) {
+  .telefonoContacto {
+    font-size: 25px;
+    font-weight: bold;
+  }
+}
+
 /* RESPONSIVE ENVIOS*/
 
-@media (max-width: 480px) {
+@media (max-width: 767px) {
   .envios h1 {
     font-size: 20px;
   }
@@ -597,7 +620,7 @@ ul li {
 }
 
 /* RESPONSIVE FAQ */
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .faq .card {
     padding: 15px;
   }

@@ -20,9 +20,9 @@
     margin-bottom: 15px;
 }
 
-/* TELEFONO Y CONTACTO */
+  /* TELEFONO Y CONTACTO */
 
-.telefonoContacto i, .emailContacto i {
+.telefonoContacto i, .emailContacto i , .contactoMapa i {
     color: #AA73B6;
     font-size: 30px;
     margin-left: 30px;
@@ -35,15 +35,29 @@
     font-size: 20px;
     margin-left: 10px;
     text-decoration: none;
-    font-weight: bold; 
+    font-weight: bold;
 }
 
-.telefonoContacto a:hover, 
+.telefonoContacto a:hover,
 .emailContacto a:hover {
     color: #d1a2dc;
     font-size: 20px;
     margin-left: 10px;
-    text-decoration: underline
+    text-decoration: underline;
+}
+
+.contactoMapa {
+    color: #AA73B6;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 26px;
+}
+
+.contactoMapa a {
+    color: #d1a2dc;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
 }
 
 /*FORM*/
@@ -66,7 +80,7 @@
     width: 85%;
     padding: 10px;
     margin-bottom: 10px;
-    border: 1px solid #FAE3FF; 
+    border: 1px solid #FAE3FF;
     border-radius: 5px;
 }
 
@@ -77,16 +91,12 @@
     font-weight: bold;
     padding: 10px 20px;
     border: none;
-    border-radius: 5px; 
+    border-radius: 5px;
 }
 
 .contact-form button:hover {
     background-color: #f8d6fe;
 }
 
-.contactoMapa iframe {
-    width: 70%; 
-    height: 350px;
-    margin-top: 10px;
-    margin-left: 30px;
-}
+
+

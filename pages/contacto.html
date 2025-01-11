@@ -76,43 +76,50 @@
 
     <!--N°2 <== MAIN-->
     <main id="main">
-      <section class="contact-section">
-
-          <div class="info-container">
-              <p class="titPageContacto" style="background-color: #FAE3FF; display: inline;">CONTACTO</p>
-              
-              <p class="telefonoContacto">
-                <i class="fa-brands fa-whatsapp"></i>
-                <a href="https://wa.me/5491132599614" target="_blank">11 3259 9614</a>
-              </p>
-            <p class="emailContacto">
-              <i class="fa-solid fa-envelope"></i>
-                <a href="mailto:dollmkpstore@gmail.com">dollmkpstore@gmail.com</a>
-            </p>
-            
-              <article class="contactoMapa">
-                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3908.065273403908!2d-58.490389854884434!3d-34.54651399730558!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb6c049b27a89%3A0xb4aff81f5c83b76b!2sDot%20Baires%20Shopping!5e0!3m2!1ses-419!2sar!4v1734980020830!5m2!1ses-419!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-              </article>
+      <div class="row flex-column flex-md-row">
+        <div class="info-container text-center">
+          <p class="titPageContacto">CONTACTO</p>
+          <div class="telefonoContacto">
+            <i class="fa-brands fa-whatsapp"></i>
+            <a href="https://wa.me/5491132599614" target="_blank">11 3259 9614</a>
           </div>
 
-          <form class="contact-form">
+          <div class="emailContacto">
+            <i class="fa-solid fa-envelope"></i>
+            <a href="mailto:dollmkpstore@gmail.com">dollmkpstore@gmail.com</a>
+          </div>
 
-              <label for="name">Nombre</label>
-              <input type="text" id="name" name="name" required>
-              
-              <label for="email">Email</label>
-              <input type="email" id="email" name="email" required>
-              
-              <label for="phone">Teléfono (opcional)</label>
-              <input type="tel" id="phone" name="phone">
-              
-              <label for="message">Mensaje (opcional)</label>
-              <textarea id="message" name="message"></textarea>
-              
-              <button type="submit">Enviar</button>
+          <div class="contactoMapa">
+            <i class="fa-solid fa-location-dot"></i>
+            <a href="https://www.google.com/maps?q=Vedia+3600,+C1430+Cd.+Autónoma+de+Buenos+Aires" target="_blank" class="text-decoration-none">Vedia 3600, C1430 Cdad. Autónoma de Buenos Aires</a>
+          </div>
+
+        </div>
+      
+        <!-- FORM -->
+        <div class="contact-form">
+          <form>
+            <div class="mb-3">
+              <label for="name" class="form-label">Nombre</label>
+              <input type="text" id="name" name="name" class="form-control" required>
+            </div>
+            <div class="mb-3">
+              <label for="email" class="form-label">Email</label>
+              <input type="email" id="email" name="email" class="form-control" required>
+            </div>
+            <div class="mb-3">
+              <label for="phone" class="form-label">Teléfono (opcional)</label>
+              <input type="tel" id="phone" name="phone" class="form-control">
+            </div>
+            <div class="mb-3">
+              <label for="message" class="form-label">Mensaje (opcional)</label>
+              <textarea id="message" name="message" class="form-control"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary w-100">Enviar</button>
           </form>
-      </section>
-  </main>
+        </div>
+      </div>
+  
   
 
     <!--N°3 <== FOOTER-->

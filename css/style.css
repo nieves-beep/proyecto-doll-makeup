@@ -45,6 +45,24 @@ a {
 
 /* ESTILOS HEADER INDEX */
 
+.navbar-nav {
+  margin-right: 200px;
+}
+
+.logoDoll img {
+  text-align: center;
+  max-height: 230px;
+  margin-left: 70px;
+}
+
+.loginCarrito {
+  margin-left: 400px;
+}
+
+.nav-item-login {
+  margin-right: 30px;
+}
+
 /***** NAVBAR *****/
 
 .navbar .nav-link {
@@ -533,24 +551,7 @@ ul li {
   color: #AA73B6;
 }
 
-/* ESTILOS HEADER */
-.navbar-nav {
-  margin-right: 200px;
-}
 
-.logoDoll img {
-  text-align: center;
-  max-height: 230px;
-  margin-left: 70px;
-}
-
-.loginCarrito {
-  margin-left: 400px;
-}
-
-.nav-item-login {
-  margin-right: 30px;
-}
 
 /* RESPONSIVE MAIN INICIO */
 @media (max-width: 767px) {

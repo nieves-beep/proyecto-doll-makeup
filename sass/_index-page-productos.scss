@@ -16,8 +16,6 @@
     margin-right: 30px;
 }
 
-/***** NAVBAR *****/
-
 .navbar .nav-link {
     color: #c08acc;
     font-weight: bold; 
@@ -82,34 +80,74 @@
     max-width: 250px;
 }
 
+/* ESTILOS CATEGORÍAS */
+
+.categorias {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FAE3FF;
+    margin: 30px auto;
+    border-radius: 200px;
+    padding-top: 10px;
+    max-width: 700px;
+    max-height: 40px;
+}
+
+.categorias p {
+    color: #AA73B6;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 0;
+    padding: 20px;
+    white-space: nowrap;
+}
+
+.categorias ul {
+    display: flex;
+    justify-content: flex-start;
+    list-style: none;
+}
+
+.categorias ul li {
+    margin-right: 20px;
+    padding: 20px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.categorias a {
+    color: #AA73B6;
+    text-decoration: none;
+}
+
 /* ESTILOS CATEGORÍAS MAIN INDEX Y PAGE PRODUCTOS */
 
 .btn-category {
     background-color: #FAE3FF;
     color: #AA73B6;
-    border: 2px solid #AA73B6;
     font-weight: bold; 
-    border-radius: 8px; 
+    border-radius: 5px; 
+    font-size: 25px;
 }
 
 .btn-category:hover {
-    background-color: #AA73B6; 
-    color: #FAE3FF;
+    background-color: #f8d6fe;
+    color: #AA73B6;
 }
 
 .btn-category-arrow {
     background-color: #AA73B6; 
     color: #FAE3FF; 
     border: none;
-    font-size: 20px;
-    border-radius: 50%;
+    font-size: 25px;
+    border-radius: 5px;
     padding: 10px 15px;
 }
 
 .btn-category-arrow:hover {
     background-color: #FAE3FF; 
     color: #AA73B6;  
-    border: 2px solid #AA73B6;
 }
 
 /* ESTILOS PRODUCTOS INDEX Y PAGE PRODUCTOS */

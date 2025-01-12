@@ -123,6 +123,36 @@ a {
     text-decoration: none;
 }
 
+/* ESTILOS CATEGORÍAS MAIN INDEX Y PAGE PRODUCTOS */
+
+.btn-category {
+    background-color: #FAE3FF;
+    color: #AA73B6;
+    border: 2px solid #AA73B6;
+    font-weight: bold; 
+    border-radius: 8px; 
+}
+
+.btn-category:hover {
+    background-color: #AA73B6; 
+    color: #FAE3FF;
+}
+
+.btn-category-arrow {
+    background-color: #AA73B6; 
+    color: #FAE3FF; 
+    border: none;
+    font-size: 20px;
+    border-radius: 50%;
+    padding: 10px 15px;
+}
+
+.btn-category-arrow:hover {
+    background-color: #FAE3FF; 
+    color: #AA73B6;  
+    border: 2px solid #AA73B6;
+}
+
 /* ESTILOS PRODUCTOS INICIO Y PAGE PRODUCTOS */
 
 .productos {
@@ -623,4 +653,4 @@ ul li {
     .faq .card p {
         font-size: 14px;
     }
-} }
+}

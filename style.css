@@ -554,13 +554,20 @@ ul li {
 
 /* RESPONSIVE MAIN INICIO */
 
-@media (max-width: 767px) {
+@media (min-width: 768px) {
+    .maquillaje--btn {
+        font-size: 16px;
+    }
+}
+
+
+@media (max-width: 768px) {
     .productos__card {
         width: 45%;
     }
 }
 
-@media (max-width: 479px) {
+@media (max-width: 768px) {
     .productos__card {
         width: 48%;
     }

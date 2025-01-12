@@ -244,23 +244,20 @@ a {
 }
 
 .maquillaje--btn {
-  height: 50px;
-  color: #AA73B6;
+  display: block; 
+  width: 100%; 
   background-color: #FAE3FF;
-  padding: 10px 20px;
-  border-radius: 8px;
-  font-size: 20px;
-  font-weight: bold;
+  color: #AA73B6;
+  font-size: 25px;
+  font-weight: bold; /* Negrita */
   text-align: center;
-  transition: background-color 0.3s ease, transform 0.3s ease;
-  display: inline-block;
-  margin-top: 15px;
-  margin-bottom: 10px;
-  border: none;
+  border: none; 
+  border-radius: 5px; 
+  transition: background-color 0.3s ease;
 }
 
 .maquillaje--btn:hover {
-  background-color: #f8d6fe;
+  background-color: #DDB7E5;
 }
 
 /* ESTILOS BTN VER TODOS LOS PRODUCTOS */
@@ -613,6 +610,13 @@ ul li {
 }
 
 /* RESPONSIVE MAIN INICIO */
+
+@media (max-width: 768px) {
+  .titProductos {
+    text-align: left; 
+    margin-left: 5px; 
+  }
+}
 
 @media (max-width: 767px) {
   .productos__card {

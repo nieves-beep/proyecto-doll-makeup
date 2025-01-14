@@ -30,8 +30,36 @@
 /* RESPONSIVE MAIN INICIO */
 
 @media (max-width: 768px) {
+    .banner {
+        width: 60%;
+    }
+}
+
+@media (max-width: 768px) {
     .banner img {
         width: 50%;
+    }
+}
+
+/* BTN CATEGORIAS RESPONSIVE */
+
+@media (max-width: 768px) {
+    .btn-category {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 768px) {
+    .btn-category-arrow {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 768px) {
+    .titProductos {
+        text-align: left; 
+        margin-left: 5px; 
+        font-size: 20px;
     }
 }
 
@@ -44,6 +72,46 @@
 @media (max-width: 479px) {
     .productos__card {
         width: 48%;
+    }
+}
+
+@media (max-width: 479px) {
+    .maquillaje--btn {
+        font-size: 16px;
+    }
+}
+
+/* RESPONSIVE CONTACTO */
+
+@media (min-width: 768px) {
+    .contact-section {
+        flex-direction: row;
+        gap: 50px;
+    }
+}
+
+@media (max-width: 768px) {
+    .info-container {
+        width: 45%;
+    }
+}
+
+@media (max-width: 768px) {
+    .contact-form {
+        width: 45%;
+    }
+}
+
+@media (max-width: 768px) {
+    .contactoMapa iframe {
+        width: 70%;
+        height: 350px;
+    }
+}
+
+@media (max-width: 768px) {
+    .titPageContacto {
+        font-size: 40px; 
     }
 }
 
@@ -81,6 +149,7 @@
     .faq .card {
         padding: 15px;
     }
+}
 
 @media (max-width: 768px) {
     .faq .card h1 {
@@ -100,4 +169,4 @@
         font-size: 14px;
     }
 }
-}
+

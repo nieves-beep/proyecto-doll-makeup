@@ -613,13 +613,25 @@ ul li {
 
 @media (max-width: 768px) {
   .banner {
-    margin: 10px;
+      width: 60%;
+  }
+}
+
+  @media (max-width: 768px) {
+    .banner img {
+      width: 50%;
   }
 }
 
 @media (max-width: 768px) {
-  .banner img {
-    width: 50%;
+  .btn-category {
+      font-size: 16px;
+  }
+}
+
+@media (max-width: 768px) {
+  .btn-category-arrow {
+    font-size: 16px;
   }
 }
 
@@ -627,18 +639,25 @@ ul li {
   .titProductos {
     text-align: left; 
     margin-left: 5px; 
+    font-size: 20px;
   }
 }
 
 @media (max-width: 767px) {
   .productos__card {
-      width: 45%;
+    width: 45%;
   }
 }
 
-@media (max-width: 479px) {
+@media (max-width: 767px) {
   .productos__card {
-      width: 48%;
+    width: 48%;
+  }
+}
+
+@media (max-width: 767px) {
+  .maquillaje--btn {
+    font-size: 16px;
   }
 }
 

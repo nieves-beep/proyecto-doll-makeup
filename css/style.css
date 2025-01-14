@@ -612,6 +612,18 @@ ul li {
 /* RESPONSIVE MAIN INICIO */
 
 @media (max-width: 768px) {
+  .banner {
+    margin: 10px;
+  }
+}
+
+@media (max-width: 768px) {
+  .banner img {
+    width: 50%;
+  }
+}
+
+@media (max-width: 768px) {
   .titProductos {
     text-align: left; 
     margin-left: 5px; 

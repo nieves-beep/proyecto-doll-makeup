@@ -29,6 +29,12 @@
 
 /* RESPONSIVE MAIN INICIO */
 
+@media (max-width: 768px) {
+    .banner img {
+        width: 50%;
+    }
+}
+
 @media (max-width: 767px) {
     .productos__card {
         width: 45%;

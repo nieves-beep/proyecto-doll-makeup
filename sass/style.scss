@@ -1,11 +1,9 @@
-@import "reset";
-@import 'index-page-productos';
-@import "page-contacto";
-@import "page-envios";
-@import "page-faq";
-@import "footer";
-
-
+@use "reset";
+@use 'index-page-productos';
+@use "page-contacto";
+@use "page-envios";
+@use "page-faq";
+@use "footer";
 
 /* ESTILOS HEADER */
 

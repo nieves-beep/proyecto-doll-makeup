@@ -104,9 +104,6 @@ a {
 }
 
 /* ESTILOS MAIN INDEX */
-#main {
-  margin-top: 250px;
-}
 
 .banner {
   display: flex;
@@ -123,6 +120,7 @@ a {
 }
 
 /* ESTILOS CATEGORÍAS */
+
 .categorias {
   display: flex;
   justify-content: space-between;

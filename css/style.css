@@ -198,6 +198,7 @@ ul li {
 }
 
 /* ESTILOS CATEGORÍAS */
+
 .categorias {
   display: flex;
   justify-content: space-between;
@@ -435,8 +436,8 @@ body {
 .contacto .card form textarea {
   width: 100%;
   max-width: 800px;
-  color: #AA73B6;
-  background-color: #FAE3FF;
+  color: #985ea5;
+  background-color: #faecfd;
   border: #AA73B6;
   border-radius: 5px;
   font-size: 25px;
@@ -1268,6 +1269,13 @@ ul li {
     gap: 50px;
   }
 }
+
+@media (min-width: 768px) {
+  .contacto h1 {
+  font-size: 20px;
+  }
+}
+
 @media (max-width: 768px) {
   .info-container {
     width: 45%;

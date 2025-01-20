@@ -20,9 +20,7 @@ ESTO ARTICULA PARA PROPIEDADES COMO MARGIN-PADDING
     margin-left:;
     margin-right:;
     */
-
 /* RESET ESTILOS GENERALES */
-
 * {
   padding: 0;
   margin: 0;
@@ -42,8 +40,85 @@ a {
   text-decoration: none;
 }
 
-/* ESTILOS HEADER */
+/*ESTILOS FOOTER*/
+#footer {
+  margin-top: 200px;
+  margin-bottom: 50px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
 
+.card {
+  border: none;
+  border-radius: 10px;
+  background-color: #FAE3FF;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card-title {
+  color: #AA73B6;
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.card-body ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+}
+
+.card-body ul li {
+  width: 100%;
+  text-align: center;
+}
+
+.card-body ul li a {
+  color: #c08acc;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.card-body ul li a:hover {
+  color: #DDB7E5;
+  text-decoration: none;
+}
+
+.card-redes i {
+  color: #DDB7E5;
+  margin-right: 5px;
+  font-size: 16px;
+}
+
+.card-contacto p {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+ul li {
+  font-size: 16px;
+}
+
+.card-contacto i {
+  color: #DDB7E5;
+  margin-bottom: 10px;
+  margin-right: 5px;
+}
+
+.card-contacto a {
+  color: #AA73B6;
+}
+
+/* PAGES */
 .navbar-nav {
   margin-right: 200px;
 }
@@ -61,8 +136,6 @@ a {
 .nav-item-login {
   margin-right: 30px;
 }
-
-/*************************/
 
 .navbar .nav-link {
   color: #c08acc;
@@ -125,7 +198,6 @@ a {
 }
 
 /* ESTILOS CATEGORÍAS */
-
 .categorias {
   display: flex;
   justify-content: space-between;
@@ -166,9 +238,6 @@ a {
 }
 
 /* ESTILOS CATEGORÍAS MAIN INDEX Y PAGE PRODUCTOS */
-
-/* BTN BOOTSTRAP FLECHITA */
-
 .btn-category {
   background-color: #FAE3FF;
   color: #AA73B6;
@@ -294,6 +363,10 @@ a {
 }
 
 /* ESTILOS MAIN PAGE CONTACTO */
+body {
+  margin: 0;
+  padding: 0;
+}
 
 .contacto {
   display: flex;
@@ -403,7 +476,6 @@ a {
 }
 
 /* ESTILOS MAIN PAGE ENVIOS*/
-
 .envios {
   display: flex;
   justify-content: center;
@@ -414,7 +486,6 @@ a {
 }
 
 /* CARD */
-
 .envios .card {
   background-color: #FFFFFF;
   border-radius: 10px;
@@ -469,7 +540,6 @@ a {
 }
 
 /* ESTILOS PAGE FAQ */
-
 .faq {
   display: flex;
   justify-content: center;
@@ -527,84 +597,6 @@ a {
 }
 
 .faq .card .nota {
-  color: #AA73B6;
-}
-
-/*ESTILOS FOOTER*/
-#footer {
-  margin-top: 200px;
-  margin-bottom: 50px;
-  margin-left: 30px;
-  margin-right: 30px;
-}
-
-.card {
-  border: none;
-  border-radius: 10px;
-  background-color: #FAE3FF;
-  padding: 10px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.card-title {
-  color: #AA73B6;
-  font-weight: bold;
-  font-size: 20px;
-  text-align: center;
-  margin-bottom: 10px;
-}
-
-.card-body ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 5px;
-}
-
-.card-body ul li {
-  width: 100%;
-  text-align: center;
-}
-
-.card-body ul li a {
-  color: #c08acc;
-  text-decoration: none;
-  font-weight: bold;
-  font-size: 16px;
-}
-
-.card-body ul li a:hover {
-  color: #DDB7E5;
-  text-decoration: none;
-}
-
-.card-redes i {
-  color: #DDB7E5;
-  margin-right: 5px;
-  font-size: 16px;
-}
-
-.card-contacto p {
-  font-size: 20px;
-  font-weight: bold;
-}
-
-ul li {
-  font-size: 16px;
-}
-
-.card-contacto i {
-  color: #DDB7E5;
-  margin-bottom: 10px;
-  margin-right: 5px;
-}
-
-.card-contacto a {
   color: #AA73B6;
 }
 
@@ -650,6 +642,7 @@ a {
   text-decoration: none;
 }
 
+/* ESTILOS HEADER */
 .navbar-nav {
   margin-right: 200px;
 }
@@ -668,6 +661,7 @@ a {
   margin-right: 30px;
 }
 
+/*************************/
 .navbar .nav-link {
   color: #c08acc;
   font-weight: bold;
@@ -1204,9 +1198,26 @@ ul li {
   color: #AA73B6;
 }
 
+/* ESTILOS HEADER */
+.navbar-nav {
+  margin-right: 200px;
+}
+
+.logoDoll img {
+  text-align: center;
+  max-height: 230px;
+  margin-left: 70px;
+}
+
+.loginCarrito {
+  margin-left: 400px;
+}
+
+.nav-item-login {
+  margin-right: 30px;
+}
 
 /* RESPONSIVE MAIN INICIO */
-
 @media (max-width: 768px) {
   .banner {
     width: 60%;
@@ -1217,9 +1228,7 @@ ul li {
     width: 50%;
   }
 }
-
 /* BTN CATEGORIAS RESPONSIVE */
-
 @media (max-width: 768px) {
   .btn-category {
     font-size: 12px;
@@ -1252,9 +1261,7 @@ ul li {
     font-size: 16px;
   }
 }
-
 /* RESPONSIVE CONTACTO */
-
 @media (min-width: 768px) {
   .contact-section {
     flex-direction: row;
@@ -1282,9 +1289,7 @@ ul li {
     font-size: 40px;
   }
 }
-
 /* RESPONSIVE ENVIOS*/
-
 @media (max-width: 480px) {
   .envios h1 {
     font-size: 20px;
@@ -1307,9 +1312,7 @@ ul li {
     font-size: 12px;
   }
 }
-
 /* RESPONSIVE FAQ */
-
 @media (max-width: 768px) {
   .faq .card {
     padding: 15px;

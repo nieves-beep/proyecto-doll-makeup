@@ -1,9 +1,17 @@
-@use "reset";
-@use 'index-page-productos';
-@use "page-contacto";
-@use "page-envios";
-@use "page-faq";
-@use "footer";
+@use "presets/reset";
+@use "presets/header";
+@use "presets/footer";
+
+/* PAGES */
+
+@use "pages-sass/index-page-productos";
+@use "pages-sass/page-contacto";
+@use "pages-sass/page-envios";
+@use "pages-sass/page-faq";
+
+
+
+
 
 /*
 ESTO ARTICULA PARA PROPIEDADES COMO MARGIN-PADDING

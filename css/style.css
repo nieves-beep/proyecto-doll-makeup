@@ -956,8 +956,8 @@ a {
 .contacto .card form textarea {
   width: 100%;
   max-width: 800px;
-  color: #AA73B6;
-  background-color: #FAE3FF;
+  color: #985ea5;
+  background-color: #faecfd;
   border: #AA73B6;
   border-radius: 5px;
   font-size: 25px;
@@ -1244,7 +1244,7 @@ ul li {
   .titProductos {
     text-align: left;
     margin-left: 5px;
-    font-size: 20px;
+    font-size: 22px;
   }
 }
 @media (max-width: 767px) {
@@ -1262,17 +1262,13 @@ ul li {
     font-size: 16px;
   }
 }
+
 /* RESPONSIVE CONTACTO */
+
 @media (min-width: 768px) {
   .contact-section {
     flex-direction: row;
     gap: 50px;
-  }
-}
-
-@media (min-width: 768px) {
-  .contacto h1 {
-  font-size: 20px;
   }
 }
 
@@ -1294,30 +1290,30 @@ ul li {
 }
 @media (max-width: 768px) {
   .titPageContacto {
-    font-size: 40px;
+    font-size: 22px;
   }
 }
 /* RESPONSIVE ENVIOS*/
 @media (max-width: 480px) {
   .envios h1 {
-    font-size: 20px;
+    font-size: 22px;
   }
 }
 @media (max-width: 480px) {
   .envios p,
   .envios ul li {
-    font-size: 14px;
+    font-size: 18px;
   }
 }
 @media (max-width: 480px) {
   .envios h2 {
-    font-size: 16px;
+    font-size: 18px;
     padding: 4px;
   }
 }
 @media (max-width: 480px) {
   .telefonoContacto, .emailContacto {
-    font-size: 12px;
+    font-size: 18px;
   }
 }
 /* RESPONSIVE FAQ */
@@ -1328,7 +1324,7 @@ ul li {
 }
 @media (max-width: 768px) {
   .faq .card h1 {
-    font-size: 20px;
+    font-size: 22px;
   }
 }
 @media (max-width: 768px) {
@@ -1339,7 +1335,7 @@ ul li {
 @media (max-width: 768px) {
   .faq .card ul li,
   .faq .card p {
-    font-size: 14px;
+    font-size: 18px;
   }
 }
 

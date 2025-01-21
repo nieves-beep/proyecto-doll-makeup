@@ -115,3 +115,38 @@ body {
 
 
 
+
+
+/* RESPONSIVE CONTACTO */
+
+@media (min-width: 768px) {
+    .contact-section {
+    flex-direction: row;
+    gap: 50px;
+    }
+}
+
+@media (max-width: 768px) {
+    .info-container {
+    width: 45%;
+    }
+}
+@media (max-width: 768px) {
+    .contact-form {
+    width: 45%;
+    }
+}
+@media (max-width: 768px) {
+    .contactoMapa iframe {
+    width: 70%;
+    height: 350px;
+    }
+}
+@media (max-width: 768px) {
+    .titPageContacto {
+    font-size: 22px;
+    }
+}
+
+
+

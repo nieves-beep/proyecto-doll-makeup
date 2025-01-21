@@ -127,6 +127,18 @@ body {
 }
 
 @media (max-width: 768px) {
+    .contacto .card h1 {
+    font-size: 25px;
+    }
+}
+
+@media (max-width: 768px) {
+    .contacto .card .info li {
+    font-size: 20px;
+    }
+}
+
+@media (max-width: 768px) {
     .info-container {
     width: 45%;
     }
@@ -142,11 +154,7 @@ body {
     height: 350px;
     }
 }
-@media (max-width: 768px) {
-    .titPageContacto {
-    font-size: 22px;
-    }
-}
+
 
 
 

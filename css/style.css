@@ -275,6 +275,10 @@ a {
 }
 
 .productos__card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
   width: 30%;
   box-sizing: border-box;
   padding: 10px;

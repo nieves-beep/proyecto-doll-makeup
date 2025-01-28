@@ -241,6 +241,7 @@ a {
 .btn-category-arrow {
   background-color: #AA73B6;
   color: #FAE3FF;
+  margin-left: 10px;
   border: none;
   font-size: 25px;
   border-radius: 5px;
@@ -447,7 +448,7 @@ body {
 
 .contacto .card form input::placeholder,
 .contacto .card form textarea::placeholder {
-  color: #c08acc;
+  color: #AA73B6;
   font-size: 20px;
   font-weight: bold;
 }
@@ -927,8 +928,43 @@ a {
   gap: 5px;
 }
 
+.card-body ul li {
+  width: 100%;
+  text-align: center;
+  font-size: 16px;
+}
+
+.card-body ul li a {
+  color: #AA73B6;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 16px;
+}
+
 .card-body ul li a:hover {
   color: #DDB7E5;
+  text-decoration: none;
+}
+
+.card-redes i {
+  color: #AA73B6;
+  margin-right: 5px;
+  font-size: 16px;
+}
+
+.card-contacto p {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.card-contacto i {
+  color: #AA73B6;
+  margin-bottom: 10px;
+  margin-right: 5px;
+}
+
+.card-contacto a {
+  color: #AA73B6;
 }
 
 /* RESPONSIVE MAIN INICIO */

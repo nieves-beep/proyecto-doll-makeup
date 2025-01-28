@@ -186,3 +186,49 @@
     background-color: #f8d6fe;
     transform: scale(1.05);
 }
+
+/* RESPONSIVE MAIN INICIO */
+@media (max-width: 768px) {
+    .banner {
+    width: 60%;
+    }
+}
+@media (max-width: 768px) {
+    .banner img {
+    width: 50%;
+    }
+}
+
+/* BTN CATEGORIAS RESPONSIVE */
+@media (max-width: 768px) {
+    .btn-category {
+    font-size: 16px;
+    }
+}
+@media (max-width: 768px) {
+    .btn-category-arrow {
+    font-size: 16px;
+    }
+}
+@media (max-width: 768px) {
+    .titProductos {
+    text-align: left;
+    margin-left: 5px;
+    font-size: 22px;
+    }
+}
+@media (max-width: 767px) {
+    .productos__card {
+    width: 45%;
+    }
+}
+@media (max-width: 479px) {
+    .productos__card {
+    width: 48%;
+    }
+}
+@media (max-width: 479px) {
+    .maquillaje--btn {
+    font-size: 16px;
+    }
+}

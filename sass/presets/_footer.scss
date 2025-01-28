@@ -7,7 +7,7 @@
     margin-right: 30px;
 
     .card {
-        border: none;
+    border: none;
     border-radius: 10px;
     background-color: #FAE3FF;
     padding: 10px;
@@ -17,7 +17,7 @@
     }
 
     .card-title {
-        color: #AA73B6;
+    color: #AA73B6;
     font-weight: bold;
     font-size: 20px;
     text-align: center;
@@ -30,6 +30,7 @@
         padding: 0;
         margin: 0;
         display: flex;
+        justify-content: center;
         flex-direction: column;
         align-items: center;
         gap: 5px;
@@ -42,7 +43,7 @@
     }
 
     ul li a {
-        color: #c08acc;
+        color: #AA73B6;
         text-decoration: none;
         font-weight: bold;
         font-size: 16px;
@@ -55,7 +56,7 @@
     }
 
     .card-redes i {
-        color: #DDB7E5;
+        color: #AA73B6;
         margin-right: 5px;
         font-size: 16px;
     }
@@ -67,7 +68,7 @@
     }
 
     i {
-        color: #DDB7E5;
+        color: #AA73B6;
         margin-bottom: 10px;
         margin-right: 5px;
     }
